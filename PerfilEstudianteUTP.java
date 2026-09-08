@@ -1,6 +1,8 @@
-/*
- * TODO 1 (NIVEL 2 - Javadoc): Convierte este comentario de bloque a un comentario Javadoc oficial (/** ... */)
- /** Incluye las etiquetas @author (tu Nombre y Cédula) y @version 1.0
+/**
+ * Clase que gestiona el perfil de matrícula de un estudiante de la UTP.
+ * @author Luis Zhong 8-1066-834
+ * @author Jafeth Guevara 8-1061-91
+ * @version 1.0
  */
 public class PerfilEstudianteUTP {
 
@@ -11,20 +13,20 @@ public class PerfilEstudianteUTP {
         // ==============================================================
         
         // TODO 2.1: Corrige este identificador ilegal (inicia con un número) a camelCase
-        String 1erNombre = "Jafeth Guevara";
+        String primerNombre = "Jafeth Guevara";
 
         // TODO 2.2: Corrige este identificador ilegal (usa un guion medio) a camelCase
-        int creditosmatriculados = 18;
+        int creditosMatriculados = 18;
 
         // TODO 2.3: Corrige el tipo de dato para almacenar el costo exacto con decimales (15.50)
-        dooble costoCredito = 15.50;
+        double costoCredito = 15.50;
 
         // TODO 2.4: Corrige el tipo de dato al tipo primitivo boolean (sin comillas de texto)
-        boolean estaPazYSalvo = "true";
+        boolean estaPazYSalvo = true;
 
         // TODO 2.5: Declara una variable de tipo char con la inicial del segundo nombre
         // Nombre de variable: inicialSegundoNombre | Valor de prueba: 'M'
-        char inicialSegudoNombre = "J";
+        char inicialSegundoNombre = 'M';
 
 
         // ==============================================================
@@ -43,13 +45,13 @@ public class PerfilEstudianteUTP {
         // ==============================================================
         
         // TODO 4: Utiliza tus variables y constantes corregidas para calcular subtotal y total
-        double subtotalMatricula = creditosmatriculados * costoCredito;
+        double subtotalMatricula = creditosMatriculados * costoCredito;
         double totalPagar = subtotalMatricula + CARNET_ESTUDIANTIL;
 
         System.out.println("==========================================");
         System.out.println("    FICHA DE MATRÍCULA ESTUDIANTIL UTP");
         System.out.println("==========================================");
-        System.out.println("Estudiante : " + 1erNombre);
+        System.out.println("Estudiante : " + primerNombre);
         System.out.println("Paz y Salvo: " + estaPazYSalvo);
         System.out.println("Subtotal   : $" + subtotalMatricula);
         System.out.println("Total      : $" + totalPagar);
