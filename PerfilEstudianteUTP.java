@@ -24,7 +24,7 @@ public class PerfilEstudianteUTP {
 
         // TODO 2.5: Declara una variable de tipo char con la inicial del segundo nombre
         // Nombre de variable: inicialSegundoNombre | Valor de prueba: 'M'
-        char inicialSegudoNombre = 'J';
+        char inicialSegudoNombre = "J";
 
 
         // ==============================================================
